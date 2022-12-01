@@ -1,0 +1,255 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.menu{
+    background-color: #212121;
+    font-family: 'Fasthand', cursive;
+}
+
+.menu__logo{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem 37rem;
+    border-radius: 12rem;
+}
+
+.navbar{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    border: 0.3rem groove #daa520;
+}
+
+.nav-link{
+    font-size: 1rem;
+    color:#daa520;
+}
+
+.body{
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    font-weight: bold;
+    background-color: #333333;
+}
+
+.body__title{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: #daa520;
+    font-size:2rem;
+    
+}
+
+.body__subtitle{
+    margin:2rem 1rem 1rem 1rem;
+    color: #daa520;
+    font-size:1.5rem;
+}
+
+.body__text{
+    font-size:1.1rem;
+    color:#ffffff;
+    padding-bottom:1rem;
+    margin:1rem 1rem 0 1rem;
+}
+
+.body__textcenter{
+    font-size:1.2rem;
+    color:#ffffff;
+    padding:1rem;
+    margin:1rem 1rem 0 1rem;
+    text-align: center;
+}
+
+.body__list{
+    font-size:1.1rem;
+    margin:1rem 1rem 1rem 1rem;
+    color:#000000;
+
+}
+
+.body__video{
+    display:block;
+    margin:0 22.5rem;
+    border-radius:2rem;
+    border:#daa520 solid 0.2rem;
+}
+
+.body__link{
+    font-size:1.3rem;
+    text-decoration:none;
+    color:#daa520;
+}
+
+.body__alpargatas{
+    border-radius: 0.5rem;
+    border:#daa520 solid 0.3rem;
+    margin:2rem 0.2rem 0 0.2rem;
+    height: 15rem;
+    width:15rem;
+ 
+}
+
+.body__alpargatas--1{
+    border-radius: 0.5rem;
+    border:#daa520 solid 0.3rem;
+    margin:2rem 0.2rem 0 0.2rem;
+    height: 15rem;
+    width:15rem;
+}
+
+.body__alpargatas--2{
+    border-radius: 0.5rem;
+    border:#daa520 solid 0.3rem;
+    margin:2rem 0.2rem 0 0.2rem;
+    height: 15rem;
+    width:15rem;
+}
+
+.body__alpargatas--3{
+    border-radius: 0.5rem;
+    border:#daa520 solid 0.3rem;
+    margin:2rem 0.2rem 0 0.2rem;
+    height: 15rem;
+    width:15rem;
+}
+
+.body__alpargatas--4{
+    border-radius: 0.5rem;
+    border:#daa520 solid 0.3rem;
+    margin:0.2rem;
+    height: 15rem;
+    width:31rem;
+}
+
+.body__alpargatas:hover{
+    transform: scale(1.05);
+}
+
+
+.body__alpargatas--1:hover{
+    transform: scale(1.05);
+}
+
+.body__alpargatas--2:hover{
+    transform: scale(1.05);
+}
+
+.body__alpargatas--3:hover{
+    transform: scale(1.05);
+}
+
+.body__alpargatas--4:hover{
+    transform: scale(1.05);
+}
+
+
+.d-block{
+    height: 40rem;
+    
+}
+
+
+.ofertas__titulo{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom:2rem;
+    background-color:#daa520;
+}
+
+.card{
+    margin:1rem;
+}
+.card-text{
+    text-align: center;
+}
+
+.form{
+    color:#daa520;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color:#333333;
+    padding:1rem;
+    text-align: center;
+
+}
+
+.aside{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    font-size:1.2rem;
+    font-family: 'Fasthand', cursive;
+    background-color: #212121;
+    color:#daa520;
+    border:#daa520 solid 0.2rem;
+    width: 20vw;
+}
+
+.aside__list{
+    list-style-type:none;
+}
+
+.footer{
+    color:#daa520;
+    background-color:#212121;
+    font-family: 'Fasthand', cursive;;
+    font-size:1.2rem;
+}
+
+
+.footer__list{
+    list-style:none;
+    display:inline-block;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.footer__link{
+    text-decoration:none;
+    color:#daa520;
+}
+
+
+.footer__logo{
+    border-radius:12rem;
+    height: 6rem;
+    width: 6rem;
+    margin-left: 2rem;
+}
+
+.codigo{
+    font-family: 'Fasthand', cursive;;
+    font-size:1.2rem;
+    color:#daa520;
+    background-color:#810707;
+}
+
+.codigo__titulo{
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right:2rem;
+    margin-left:2rem;
+}
+
+.codigo__form{
+    display: inline;
+}
+
+
+.codigo__form--buttom{
+    border-radius:0.5rem;
+    background-color:#daa520;
+}
